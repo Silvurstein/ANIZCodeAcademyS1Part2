@@ -9,6 +9,7 @@ public class Main {
         Rideable[] bikes = {
                 new Bike(),
                 new ElectricBike(),
+                new ChristianiaBike(),
                 new MountainBike()
         };
 
@@ -17,6 +18,8 @@ public class Main {
                 bike.ride(15, true);
             } catch (BatteryLowException e) {
                 System.out.println("Charge the battery!");
+            }catch (OverloadException e) {
+                System.out.println("Hit the gym you fat fuck");
             } catch (FlatTireException e) {
                 System.out.println("Fix the tire!");
             } catch (BrakeFailureException e) {

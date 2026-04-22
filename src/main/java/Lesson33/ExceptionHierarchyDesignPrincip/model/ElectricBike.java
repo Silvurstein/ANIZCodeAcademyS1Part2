@@ -7,7 +7,7 @@ public class ElectricBike implements Rideable {
 
     @Override
     public void ride(int tirePressure, boolean brakesWorking) throws BikeException {
-        int batteryLevel = 10; // simulate battery
+        int batteryLevel = 20; // simulate battery
 
         if (batteryLevel < 20) {
             throw new BatteryLowException();
