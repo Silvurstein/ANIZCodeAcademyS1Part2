@@ -1,0 +1,29 @@
+src/main/java/DubaiElevator/
+
+├── interfaces/
+│   ├── Elevator.java
+│   ├── Door.java
+│   ├── ControlSystem.java
+│   └── ElevatorFactory.java
+│
+├── standard/
+│   ├── StandardElevator.java
+│   ├── StandardDoor.java
+│   ├── StandardControl.java
+│   └── StandardFactory.java
+│
+├── luxury/
+│   ├── LuxuryElevator.java
+│   ├── LuxuryDoor.java
+│   ├── LuxuryControl.java
+│   └── LuxuryFactory.java
+│
+├── emergency/
+│   ├── EmergencyElevator.java
+│   ├── EmergencyDoor.java
+│   ├── EmergencyControl.java
+│   └── EmergencyFactory.java
+│
+└── app/
+    ├── ElevatorSystem.java
+    └── Main.java

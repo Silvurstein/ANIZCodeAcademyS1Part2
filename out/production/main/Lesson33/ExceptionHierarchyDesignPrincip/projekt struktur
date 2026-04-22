@@ -1,0 +1,12 @@
+bike/
+ ├── exceptions/
+ │     └── BatteryLowException.java
+ │
+ ├── model/
+ │     ├── Rideable.java (interface)
+ │     ├── Bike.java
+ │     ├── ElectricBike.java
+ │     └── MountainBike.java
+ │
+ └── app/
+       └── Main.java

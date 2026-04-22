@@ -1,0 +1,10 @@
+TheSmartShoeSystem/
+ ├── Main.java
+ ├── model/
+ │    └── Shoe.java
+ ├── validation/
+ │    ├── ShoeValidator.java
+ │    ├── NormalValidator.java
+ │    └── KidsValidator.java
+ └── exception/
+      └── InvalidShoeSizeException.java

@@ -1,0 +1,19 @@
+Exercise: Add a new bike (ChristianiaBike)
+
+1. Create a new class:
+    ChristianiaBike (cargo bike)
+    Requirements
+    The class must:
+    Be placed in the correct package
+    Implement the Rideable interface
+    Add a new rule:
+    A Christiania bike cannot carry more than 100 kg
+    If it does → throw a custom exception
+
+2. Create a new exception:
+    OverloadException
+    It must extend BikeException
+
+3. Update Main:
+    Add a ChristianiaBike to the array
+    Handle the new exception

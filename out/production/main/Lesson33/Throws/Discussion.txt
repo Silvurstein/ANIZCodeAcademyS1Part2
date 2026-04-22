@@ -1,0 +1,2 @@
+1. Hvad sker der, hvis man prøver at hæve mere end man har?
+2. Hvad betyder throws Exception?

@@ -1,0 +1,18 @@
+Your friend Alex owns a large property with different types of lawns.
+Some areas are small gardens, others are large fields, and some require robotic mowing.
+
+Alex wants a system that can:
+    Choose the correct type of lawn mower
+    Automatically decide cutting behavior
+    Track last mowing time
+    Allow future expansion (robot mowers, eco mowers, etc.)
+
+You suggest building a Smart Lawn Mower System using Abstract Factory Pattern.
+
+You are required to extend the system by introducing new features such as additional mower types, improved decision logic, or enhanced system behavior.
+For example, you may:
+Add a new mower type (e.g. EcoMower) with its own factory and behavior.
+Skriv minimum 3 UnitTest. (fx: Cutting Test, Factory Test, Maintenance Test)
+Bonus:
+Extend the cutting logic with new rules (e.g. mowing frequency based on conditions).
+Improve the sensor so it uses more realistic or rule-based detection instead of purely random values.

@@ -1,0 +1,28 @@
+Extension: ExpressElevator
+
+The ExpressElevator is designed for fast transportation in high-rise buildings,
+such as those in Dubai.
+It does not stop at every floor, but instead skips certain floors to reduce travel time.
+
+🧠 Concept
+
+In very tall buildings, stopping at every floor can be inefficient.
+The ExpressElevator improves performance by only stopping at selected floors (for example every 5th or 10th floor).
+
+⚙️ Requirements
+You must implement an elevator type called ExpressElevator that:
+Implements the Elevator interface
+Overrides movement behavior
+Only allows stopping at predefined floors (e.g. multiples of 5)
+Skips floors that are not part of its route
+
+💡 Example Behavior
+User requests floor 7
+→ ExpressElevator moves to floor 5 or 10 depending on rules
+User requests floor 20
+→ Elevator stops directly at floor 20 if allowed
+
+🧩 Optional Extensions
+Define allowed floors using a rule (e.g. every 5th floor)
+Validate floor requests
+Show a message when a floor is skipped

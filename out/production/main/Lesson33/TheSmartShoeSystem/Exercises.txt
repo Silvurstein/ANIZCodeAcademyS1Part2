@@ -1,0 +1,38 @@
+Exercise 1 – Add a new validator
+
+Create a new validator:
+SportsValidator
+
+Rules:
+Valid sizes: 38–48
+
+Otherwise throw:
+throw new InvalidShoeSizeException("Sports shoes must be between 38 and 48");
+
+Exercise 2 – Add a Luxury Shoe mode
+
+Create:
+LuxuryValidator
+
+Rules:
+Only allow sizes 40–45
+Throw exception otherwise
+
+Exercise 3 – Extend Shoe class
+
+Add a method:
+public void printInfo()
+It should print:
+Current size
+Which validator is currently used (hint: use getClass().getSimpleName())
+
+Exercise 4 – Dynamic switching
+
+In Main:
+Create a Shoe object with one validator
+Change validator at runtime multiple times
+Test invalid + valid inputs for each validator
+
+Exercise 5 – Reflection (thinking task)
+Why is it useful that we can switch validators without changing Shoe?
+What would break if validation was hardcoded inside Shoe?

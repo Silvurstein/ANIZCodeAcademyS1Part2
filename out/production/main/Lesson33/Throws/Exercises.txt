@@ -1,0 +1,10 @@
+Exercises
+1. Lav en fejl hvis man prøver at indsætte et negativt beløb:
+    throw new Exception("Amount must be positive!");
+
+2. Sørg for at main håndterer fejlen med try-catch
+
+3. Test:
+    Indsæt -100
+    Hæv for meget
+    Se hvad der sker

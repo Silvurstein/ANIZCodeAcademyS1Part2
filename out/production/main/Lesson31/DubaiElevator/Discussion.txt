@@ -1,0 +1,30 @@
+FactoryPattern: https://www.baeldung.com/java-factory-pattern
+
+🔥Niveau 1 – Basic Understanding
+Q1 What is the purpose of the ElevatorFactory interface?
+Q2 Name the three main interfaces used in the system.
+Q3 What is the role of ElevatorSystem?
+Q4 Why do we use interfaces like Elevator, Door, and ControlSystem instead of concrete classes?
+Q5 Explain in your own words what the Abstract Factory Pattern is.
+
+🔥 Niveau 2 – Code Understanding
+Q6 How does LuxuryFactory differ from StandardFactory?
+Q7 What would happen if you directly created objects using new instead of using factories?
+Q8 What happens when this code runs?
+    ElevatorFactory factory = new EmergencyFactory();
+    ElevatorSystem system = new ElevatorSystem(factory);
+    system.run();
+
+Q9 Why is this check important?
+    if (factory == null) {
+        throw new NullPointerException();
+    }
+Q10 What is the benefit of this line?
+    ElevatorFactory factory = new LuxuryFactory();
+
+🔥 Niveau 3 – Design & Architecture
+Q11 What does “loose coupling” mean in this system?
+Q12 Why is it a good idea to separate UI and Main?
+Q13 Where is the actual behavior (logic) implemented in the system?
+Q14 If you wanted to add a new type of elevator (e.g. “EcoElevator”), what classes would you need to create?
+Q15 Can you mix objects from different factories (e.g. LuxuryElevator + StandardDoor)? Why or why not?

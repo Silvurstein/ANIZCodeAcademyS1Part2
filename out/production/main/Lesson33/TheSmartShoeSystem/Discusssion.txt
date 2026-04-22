@@ -1,0 +1,44 @@
+Short Story
+
+You are a junior developer at a company called StepTech, which designs smart shoes for different customers
+ (adults, kids, athletes).
+The system must ensure that:
+    Shoes only accept valid sizes
+    Different customer types have different validation rules
+    The system is safe, flexible, and well-structured
+
+Your team has decided to use:
+    Encapsulation to protect shoe data
+    Custom exceptions to handle invalid input
+    Strategy Pattern to switch validation rules
+    Packages to organize the project
+
+Your task is to understand, extend, and improve this system as if you are part of the development team.
+
+Understanding the Code
+Explain why the size variable in the Shoe class is private.
+What happens if we try to set an invalid size?
+What role does the validator play?
+
+Custom Exception
+What is the purpose of InvalidShoeSizeException?
+Where is it thrown in the code?
+Why is it better to use a custom exception instead of a generic one?
+
+Strategy Pattern
+What is the role of the ShoeValidator interface?
+How does the Shoe class use a validator?
+What happens when you switch from NormalValidator to KidsValidator?
+
+Packages
+Describe the purpose of each package:
+    model
+    validation
+    exception
+Why is it better to separate classes into packages?
+
+Reflection
+What would happen if:
+    All validation logic was inside the Shoe class?
+    There were no exceptions?
+    Why is this design scalable for larger systems?

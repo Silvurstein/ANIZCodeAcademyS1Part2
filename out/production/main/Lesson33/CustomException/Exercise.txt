@@ -1,0 +1,20 @@
+What happens in the code?
+
+1. What is the name of the custom exception?
+NoToiletPaperException
+
+2. Which class does it extend?
+Exeption
+
+3. Where in the code is the exception thrown? (method/line)
+In toiletPaper line 17
+
+4. What condition causes the exception to be thrown?
+ if (rolls <= 0) if rolls er mindre eller lig med 0
+
+5. Where is the exception handled?
+i main line 11
+
+6. What will the output be when the program runs?
+ uses rolls, no tpoilet paper left, final zero rolls.
+

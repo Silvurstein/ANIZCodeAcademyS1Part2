@@ -1,0 +1,36 @@
+/LawnMower/
+
+├── interfaces/
+│   ├── Mower.java
+│   ├── CuttingStrategy.java
+│   ├── Maintenance.java
+│   └── MowerFactory.java
+│
+├── model/
+│   ├── LawnSize.java (enum)
+│   └── MaintenanceStatus.java (enum)
+│
+├── manual/
+│   ├── ManualMower.java
+│   ├── ManualCutting.java
+│   ├── ManualMaintenance.java
+│   └── ManualFactory.java
+│
+├── robot/
+│   ├── RobotMower.java
+│   ├── RobotCutting.java
+│   ├── RobotMaintenance.java
+│   └── RobotFactory.java
+│
+├── service/
+│   └── LawnService.java
+│
+├── app/
+│   ├── UI.java
+│   ├── Main.java
+│   └── MenuHandler.java (optional)
+│
+└── test/
+    ├── CuttingTest.java
+    ├── MaintenanceTest.java
+    └── FactoryTest.java

@@ -1,0 +1,4 @@
+Refleksionsspørgsmål
+Hvorfor er det smart, at vi ikke ændrer Lamp-klassen?
+Hvad hvis vi ville lave en “EcoValidator”?
+Hvad er forskellen på if og strategy pattern?
